@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar with Icons</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">Headphone</a>
+            <ul class="nav-links">
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#about-us"> About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                
+                <li><a href="#reviews"> Reviews</a></li>
+                <li><a href="#contact"> Contact Us</a></li>
+            </ul>
+            <i class="fa-solid fa-cart-shopping cart-icon"></i>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <!--home-->
+    <section class="home" id="home">
+    <section class="hero">
+        <div class="container">
+          <div class="hero-image">
+            <img src="https://resource.logitech.com/content/dam/logitech/en/products/headsets/zone-wired-headset/gallery/zone-wired-gallery-01.png" alt="Headphones">
+          </div>
+          <div class="hero-content">
+            <h3>Premium Sound Quality</h3>
+            <h1>Immerse Yourself in Music</h1>
+            <div class="text-btn-wrapper">
+              <p>Discover the ultimate audio experience with our state-of-the-art headphones. Perfect for music lovers and audiophiles alike.</p>
+              <button class="cta-btn">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+     <!-- About Section -->
+<section class="about" id="about">
+  <div class="about-container">
+      <img src="image/pic3.png" alt="about">
+      
+      <div class="about-content">
+          <h1>Why Choose Our Headphones?</h1>
+          
+          <div class="features">
+              <h3>✔️ High-Quality Sound</h3>
+              <h3>✔️ Noise Cancellation</h3>
+              <h3>✔️ Comfortable Fit</h3>
+          </div>
+          
+          <div class="design-section">
+              <h1>Minimal & Stylish Design</h1>
+              <p>Crafted with a sleek and modern design, our headphones offer a premium feel 
+                 while ensuring a lightweight and comfortable experience.</p>
+          </div>
+
+          <div class="usability-section">
+              <h1>Easy to Use</h1>
+              <p>With intuitive controls and seamless connectivity, our headphones make 
+                 listening to your favorite music effortless and enjoyable.</p>
+          </div>
+      </div>
+  </div>
+</section>
+<!--products--->
+<!-- Products Section -->
+<section class="products" id="products">
+  <h1 class="section-title">Our Top Headphones</h1>
+  <div class="product-container">
+      <!-- Product 1 -->
+      <div class="product-card">
+          <img src="https://uk.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw34bcb58c/01.JBL_Tune_670NC_Product%20Image_Hero_Purple.png?sw=300&sh=300" alt="Wireless Headphones">
+          <h2>Wireless Headphones</h2>
+          <p>High-quality sound with noise cancellation.</p>
+          <div class="stars">⭐⭐⭐⭐<i class="fa-regular fa-star"></i></div>
+          <span class="price">$99.99</span>
+          <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+          <img src="image/pic3.png" alt="Gaming Headset">
+          <h2>Gaming Headset</h2>
+          <p>Immersive audio with deep bass for gaming.</p>
+          <div class="stars">⭐⭐⭐⭐<i class="fa-regular fa-star"></i></div>
+          <span class="price">$129.99</span>
+          <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+          <img src="data:image/jpeg;base64,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" alt="Bluetooth Earbuds">
+          <h2>Bluetooth Earbuds</h2>
+          <p>Compact and stylish with long battery life.</p>
+          <div class="stars">⭐⭐⭐⭐<i class="fa-regular fa-star"></i></div>
+          <span class="price">$79.99</span>
+          <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+          <img src="data:image/jpeg;base64,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" alt="Over-Ear Headphones">
+          <h2>Over-Ear Headphones</h2>
+          <p>Premium comfort with deep bass.</p>
+          <div class="stars">⭐⭐⭐⭐<i class="fa-regular fa-star"></i></div>
+          <span class="price">$149.99</span>
+          <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card">
+          <img src="https://rukminim2.flixcart.com/image/850/1000/k0vbgy80/headphone/e/j/k/jbl-e55bt-quincy-edition-original-imafkkbaywfcggbc.jpeg?q=20&crop=false" alt="Studio Headphones">
+          <h2>Studio Headphones</h2>
+          <p>Perfect for professional music production.</p>
+          <div class="stars">⭐⭐⭐⭐<i class="fa-regular fa-star"></i></div>
+          <span class="price">$199.99</span>
+          <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card">
+          <img src="https://ronin.pk/cdn/shop/files/R-7010_Earbuds_Blue_01_1024x1024.webp?v=1738416575" alt="Sports Earbuds">
+          <h2>Sports Earbuds</h2>
+          <p>Water-resistant and secure fit for workouts.</p>
+          <div class="stars">⭐⭐⭐⭐<i class="fa-regular fa-star"></i></div>
+          <span class="price">$89.99</span>
+          <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card">
+          <img src="https://vishalecoms.com/wp-content/uploads/2020/05/51KiwYJMEVL._SL1000_.jpg" alt="Noise Cancelling Headphones">
+          <h2>Noise Cancelling Headphones</h2>
+          <p>Blocks external noise for immersive sound.</p>
+          <div class="stars">⭐⭐⭐⭐<i class="fa-regular fa-star"></i></div>
+          <span class="price">$179.99</span>
+          <button class="buy-btn">Buy Now</button>
+      </div>
+  </div>
+</section>
+
+<section class="section__container banner__container" id="special">
+    <div class="banner__card">
+      <p>EXPERIENCE THE SOUND</p>
+      <h4>IMMERSIVE AUDIO QUALITY</h4>
+    </div>
+    <div class="banner__card">
+      <p>HEAR EVERY DETAIL</p>
+      <h4>CRYSTAL CLEAR SOUND</h4>
+    </div>
+    <div class="banner__card">
+      <p>DESIGNED FOR COMFORT</p>
+      <h4>ALL-DAY WEARABILITY</h4>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+<!---reviwess-->
+<section class="reviews" id="reviews">
+<div class="review-slider-container">
+    <p>Customer Reviews</p>
+   
+    <div class="swiper-container">
+       
+        <div class="swiper-wrapper">
+           
+            <div class="swiper-slide">
+              
+                <img src="https://www.portotheme.com/wordpress/porto/shortcodes/wp-content/uploads/sites/32/2016/06/team-1.jpg" alt="Customer 1" class="review-image">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-name">John Doe</div>
+               
+                <div class="review-detail">"Incredible sound clarity and deep bass! Truly worth it."</div>
+               
+            </div>
+            <div class="swiper-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo7zJ5LhdjguqGwsn5W2Xqnis_3BkRldOZinuWybt8x35t_ovfgDcIOvOFAfsSNZY9x0s&usqp=CAU" alt="Customer 2" class="review-image">
+                <div class="review-stars">★★★★☆</div>
+                <div class="review-name">Jane Smith</div>
+                <div class="review-detail">"Amazing sound quality! The best headphones I've ever used."</div>
+                
+            </div>
+            <div class="swiper-slide">
+                <img src="https://cmsv2-assets.apptegy.net/uploads/15202/file/1930929/92de6e41-3623-41ad-9104-2df7dbafec7e.png" alt="Customer 3" class="review-image">
+                <div class="review-stars">★★★★★</div>
+                <div class="review-name">Alice Johnson</div>
+                <div class="review-detail">"Great value for the price! Superb comfort and battery life"</div>
+               
+            </div>
+           
+        </div>
+        <!-- Add pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+</section>
+
+
+
+<section id="about-us">
+       
+    <!-- Left Side - Text -->
+    <div class="text-content">
+        <h3>Welcome to Premium Headphones</h3>
+<h2>Who We Are</h2>
+<p>We are passionate about delivering high-quality audio solutions, ensuring an immersive listening experience.</p>
+<p>Our team focuses on innovation and precision, crafting headphones that redefine sound quality.</p>
+<p>We prioritize comfort, durability, and cutting-edge technology to enhance your music journey.</p>
+    </div>
+
+    <!-- Right Side - Image -->
+    <div class="image-content">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/headphone/l/b/8/hot-sale-wireless-over-ear-active-noise-cancellation-thunder-original-imagyh57fkzsfgsz.jpeg?q=90&crop=false" alt="About Us Image">
+    </div>
+</section>
+</section>
+
+<!---footer-->
+
+<section id="contact">
+<footer>
+    <div class="footer-content">
+      <!-- Left Section: Company Info -->
+      <div class="footer-section">
+        <h2>Softic Era</h2>
+        <p>Innovating Quality, Delivering Excellence</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <!-- Middle Section: Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">High speed</a></li>
+          <li><a href="#">High sound</a></li>
+          <li><a href="#"> Best mertial</a></li>
+        </ul>
+      </div>
+
+      <!-- Right Section: Newsletter Subscription -->
+      <div class="footer-section">
+        <h3>Stay Updated</h3>
+        <form id="newsletter-form">
+          <input type="email" id="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <p id="subscription-message"></p>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <p>&copy; 2023@ softic era. All Rights Reserved.</p>
+      <a href="#" class="back-to-top">Back to Top</a>
+    </div>
+  </footer>
+</section>
+
+</body>
+</html>
